@@ -92,6 +92,10 @@
 		{
 			"Name": "PixelStreamingPlayer",
 			"Enabled": true
+		},
+		{
+			"Name": "HoudiniEngine",
+			"Enabled": true
 		}
 	]
 }
