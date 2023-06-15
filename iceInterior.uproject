@@ -96,6 +96,21 @@
 		{
 			"Name": "HoudiniEngine",
 			"Enabled": true
+		},
+		{
+			"Name": "Landscaping",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1150fad0ef4e4a75be5743c2c68237d3"
+		},
+		{
+			"Name": "LandscapingMapbox",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6fa6e344d3444d6b9019639b13d114ed"
+		},
+		{
+			"Name": "TouchInterfaceDesigner",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e0b677a3f8354168ae5158d5f2ce40da"
 		}
 	]
 }

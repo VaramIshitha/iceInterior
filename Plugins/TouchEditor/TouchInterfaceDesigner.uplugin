@@ -1,0 +1,56 @@
+{
+	"FileVersion": 3,
+	"Version": 19,
+	"VersionName": "3.2.0",
+	"FriendlyName": "Touch Interface Designer",
+	"Description": "Create touch interface with a visual editor and manage all mobile inputs like gestures",
+	"Category": "Input",
+	"CreatedBy": "Lost in Game Studio",
+	"CreatedByURL": "https://www.lostingamestudio.com",
+	"DocsURL": "https://www.touchinterfacedesigner.lostingamestudio.com/documentation",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e0b677a3f8354168ae5158d5f2ce40da",
+	"SupportURL": "https://forums.unrealengine.com/t/support-touch-interface-designer/570948",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "TouchInterfaceDesigner",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		},
+		{
+			"Name": "TouchInterface",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android",
+				"IOS"
+			]
+		},
+		{
+			"Name": "VirtualShapeDesigner",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "7.12",
+	"FriendlyName": "Landscaping",
+	"Description": "Landscape Tools to import GIS data",
+	"Category": "Landscaping",
+	"CreatedBy": "Josef Prenner",
+	"CreatedByURL": "https://landscaping.ludicdrive.com",
+	"DocsURL": "https://jorop.github.io/landscaping-docs/#/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1150fad0ef4e4a75be5743c2c68237d3",
+	"SupportURL": "https://landscaping.ludicdrive.com",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Landscaping",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "LandscapingBlueprintLibrary",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GeoReferencing",
+			"Enabled": true
+		},
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		}
+	]
+}

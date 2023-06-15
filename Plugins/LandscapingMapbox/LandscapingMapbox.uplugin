@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.4",
+	"FriendlyName": "LandscapingMapbox",
+	"Description": "Landscaping Mapbox Bridge",
+	"Category": "Landscaping",
+	"CreatedBy": "Josef Prenner",
+	"CreatedByURL": "https://landscaping.ludicdrive.com",
+	"DocsURL": "https://jorop.github.io/landscaping-docs/#/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/6fa6e344d3444d6b9019639b13d114ed",
+	"SupportURL": "https://landscaping.ludicdrive.com",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "LandscapingMapbox",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	]
+}
